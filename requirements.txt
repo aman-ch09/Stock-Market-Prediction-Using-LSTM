@@ -55,7 +55,8 @@ pillow==11.1.0
 platformdirs==4.3.6
 prompt_toolkit==3.0.50
 protobuf==5.29.3
-psycopg2==2.9.10
+python-dotenv
+psycopg2-binary==2.9.10
 Pygments==2.19.1
 pyparsing==3.2.1
 python-crontab==3.2.0
