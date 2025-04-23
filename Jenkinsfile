@@ -48,7 +48,7 @@ pipeline {
                         docker rm -f %%i
                     )
                     echo Running new container...
-                    docker run -d --name stock_pred -p 8000:8000 aman2409/stock_pred:latest
+                    docker run -d --name stock_pred -p 8005:8000 aman2409/stock_pred:latest
                     '''
                 }
             }
